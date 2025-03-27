@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings":{
+    "DefaultConnection": "Server=.\\SQLEXPRESS;Database=Modul32;Trusted_Connection=true;TrustServerCertificate=true"
+  }
+}

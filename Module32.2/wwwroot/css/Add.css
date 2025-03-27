@@ -1,0 +1,67 @@
+﻿ .feedback-container {
+     width: 80%;
+     max-width: 600px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+h3.feedback-title {
+    color: #4287f5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table.feedback-table {
+    width: 100%;
+    border-spacing: 0 10px;
+    margin: 0 auto;
+}
+
+table.feedback-table td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+table.feedback-table td:first-child {
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+table.feedback-table td:last-child {
+    width: 70%;
+    text-align: left;
+}
+
+table.feedback-table input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.submit-button input {
+    padding: 10px 25px;
+    background-color: #4287f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button input:hover {
+    background-color: #3366cc;
+}
+
+.message-container {
+    margin-top: 20px;
+    text-align: center;
+}

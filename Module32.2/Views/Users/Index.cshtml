@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Authors Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Authors Page</title>
+    <link href="~/css/authors.css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+    <h2>Пользователи проекта</h2>
+    <br>
+    <table>
+        <tr>
+            <th>Идентификатор</th>
+            <th>Имя</th>
+            <th>Дата регистрации</th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <th>@user.Id</th>
+                <th>@user.FirstName</th>
+                <th>@user.JoinDate</th>
+            </tr>
+        }
+    </table>
+</div>
+</body>
+</html>

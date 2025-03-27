@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "View project authors";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/css/Add.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="feedback-container">
+    <div>
+        <h3 class="feedback-title">Оставьте отзыв здесь</h3>
+        <table class="feedback-table">
+            <tr>
+                <td>Ваше имя:</td>
+                <td><input type="text" name="Form"/></td>
+            </tr>
+            <tr>
+                <td>Ваш отзыв:</td>
+                <td><input type="text" name="Text"/></td>
+            </tr>
+        </table>
+        <div class="submit-button">
+            <input type="submit" value="Отправить" onclick="ProcessForm()"/>
+        </div>
+        <div class="message-container">
+            <!-- Здесь будет появляться сообщение после отправки -->
+        </div>
+    </div>
+</div>
+</body>
+<script src="~/js/add.js"></script>
+</html>

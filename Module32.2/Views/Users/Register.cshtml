@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Регистрация нового пользователя";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+    <link href="~/css/register.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="registration-container">
+    <div>
+        @if (Model == null)
+        {
+            <h3>Добро пожаловать в наш блог!</h3>
+            <form method="post">
+                <table>
+                    <tr>
+                        <td><label for="FirstName">Имя:</label></td>
+                        <td><input type="text" id="FirstName" name="FirstName" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="LastName">Фамилия:</label></td>
+                        <td><input type="text" id="LastName" name="LastName" required/></td>
+                    </tr>
+                </table>
+                <div class="submit-button">
+                    <input type="submit" value="Регистрация"/>
+                </div>
+            </form>
+        }
+        else
+        {
+            @await Html.PartialAsync("_Thanks")
+        }
+    </div>
+</div>
+</body>
+</html>

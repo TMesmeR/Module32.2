@@ -1,0 +1,13 @@
+[27.03.2025 9:48:57]: New request to http://localhost:7055/ 
+[27.03.2025 9:48:57]: New request to http://localhost:7055/lib/bootstrap/dist/css/bootstrap.min.css 
+[27.03.2025 9:48:57]: New request to http://localhost:7055/lib/bootstrap/dist/js/bootstrap.bundle.min.js 
+[27.03.2025 9:48:57]: New request to http://localhost:7055/lib/jquery/dist/jquery.min.js 
+[27.03.2025 9:48:57]: New request to http://localhost:7055/js/site.js 
+[27.03.2025 9:48:58]: New request to http://localhost:7055/Feedback/Add 
+[27.03.2025 9:48:58]: New request to http://localhost:7055/js/site.js 
+[27.03.2025 9:48:58]: New request to http://localhost:7055/lib/bootstrap/dist/js/bootstrap.bundle.min.js 
+[27.03.2025 9:48:58]: New request to http://localhost:7055/lib/jquery/dist/jquery.min.js 
+[27.03.2025 9:49:00]: New request to http://localhost:7055/Users/Register 
+[27.03.2025 9:49:00]: New request to http://localhost:7055/css/site.css 
+[27.03.2025 9:49:00]: New request to http://localhost:7055/css/register.css 
+[27.03.2025 9:49:00]: New request to http://localhost:7055/js/site.js 
